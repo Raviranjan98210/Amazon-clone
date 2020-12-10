@@ -1,0 +1,35 @@
+.footer {
+  background-color: #232f3e;
+  display: flex;
+  padding: 30px 50px;
+  justify-content: space-evenly;
+}
+
+.footer__colTitle {
+  color: white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.footer__colItems {
+  list-style-type: none;
+
+  width: 100%;
+  padding: 0;
+}
+.footer__colItems > li {
+  margin-bottom: 5px;
+}
+.footer__colItems > li > a {
+  color: #ddd;
+  font-size: 14px;
+
+  text-decoration: none;
+}
+
+.footer__colItems > li > a:hover {
+  text-decoration: underline;
+}
